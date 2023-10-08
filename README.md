@@ -1,0 +1,1 @@
+# Streamlit_interface_of_store_prediction
