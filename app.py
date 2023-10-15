@@ -153,7 +153,8 @@ if submitted:
             
               results=model.predict(input_data)
               rounded_results = np.round(results, 2)
-              st.write(results)
               
-              st.success(body=f"Prediction {rounded_results}")
+              
+              
+              st.success(f"Prediction for Sales: ${rounded_results}")
             
